@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Clima</title>
+</head>
+<body>
+    <div id="opacity"></div>
+    <div id="container">
+        <div id="tittle">Clima</div>
+        
+        <form id="searchArea">
+            <input type="search" id="search" placeholder="Digite sua cidade">
+            <button>Buscar</button>
+        </form>
+
+        <div id="warnning"></div>
+        <img id="loadingGif" src="assets/images/loading01.gif" alt="">
+
+        <div id="climaInfo">
+            <div id="locationName">
+                <span id="location">Rio de Janeiro</span>, 
+                <span id="country">BR</span>
+            </div>
+
+            <div id="climaCont">
+                <div id="temperature">
+                    <span>Temperatura</span>
+                    
+                    <div id="tempInfo">
+                        <strong>50.06</strong>
+                        <div id="celsius">°C</div>
+                    </div>
+
+                    <div id="tempImg">
+                        <img src="" alt="">
+                    </div>
+                </div>
+
+                <div id="wind">
+                    <span>Vento</span>
+
+                    <div id="windInfo">
+                        <strong>4.12</strong>
+                        <div id="km">km/h</div>
+                    </div>
+
+                    <div id="windIcon">
+                        <div id="line"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="fm">Criado por Felipe Menezes</div>
+    </div>
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>

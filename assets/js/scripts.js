@@ -27,7 +27,7 @@ document.querySelector("form").addEventListener('submit', async (event) => {
             setTimeout(()=>{
                 climaInfo.style.display="block"
                 loading.style.display="none"
-            }, 1500)
+            }, 1000)
             
 
         } else {

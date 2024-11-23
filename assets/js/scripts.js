@@ -24,10 +24,8 @@ document.querySelector("form").addEventListener('submit', async (event) => {
             document.querySelector("#windInfo strong").innerHTML=`${response.wind.speed}`
             document.querySelector("#windIcon").style.transform=`rotate(${response.wind.deg}deg)`
             
-            setTimeout(()=>{
-                climaInfo.style.display="block"
-                loading.style.display="none"
-            }, 1000)
+            climaInfo.style.display="block"
+            loading.style.display="none"
             
 
         } else {
